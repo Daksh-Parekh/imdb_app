@@ -39,7 +39,6 @@ class _HomePageState extends State<HomePage> {
               onSubmitted: (value) {
                 hRead.APICalling(searchController.text);
               },
-              style: const TextStyle(color: Colors.white),
               decoration: InputDecoration(
                 hintText: "Enter Movies Name",
                 hintStyle: TextStyle(color: Colors.grey.shade800),
